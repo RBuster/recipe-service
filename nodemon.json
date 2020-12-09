@@ -1,0 +1,6 @@
+{
+    "ignore": [".git", "node_modules", "dist", "build", ".cache"],
+    "watch": ["src/**/*.ts"],
+    "ext": "ts",
+    "exec": "ts-node -P tsconfig.json ./src/server.ts"
+  }

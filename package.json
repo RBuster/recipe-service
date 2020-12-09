@@ -1,0 +1,46 @@
+{
+  "name": "recipe-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/server.js",
+  "scripts": {
+    "start-server": "tsc && node ./dist/server.js",
+    "server:watch": "nodemon -L",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBuster/recipe-service.git"
+  },
+  "author": "DStrickland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBuster/recipe-service/issues"
+  },
+  "homepage": "https://github.com/RBuster/recipe-service#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/mongodb": "^3.6.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^3.0.0",
+    "@types/connect-mongodb-session": "^2.4.0",
+    "@types/express-session": "^1.17.3",
+    "@types/lodash": "^4.14.165",
+    "@types/passport": "^1.0.4",
+    "@types/passport-local": "^1.0.33",
+    "bcrypt": "^5.0.0",
+    "connect-mongodb-session": "^2.4.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.6.3",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "ts-node": "^9.1.0"
+  }
+}
